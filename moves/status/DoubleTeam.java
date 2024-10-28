@@ -2,7 +2,7 @@ package moves.status;
 
 import ru.ifmo.se.pokemon.*;
 
-public class DoubleTeam extends StatusMove{
+public final class DoubleTeam extends StatusMove{
 	public DoubleTeam() {
 		super(Type.NORMAL, 0, 0);
 	}

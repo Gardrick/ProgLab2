@@ -2,7 +2,7 @@ package moves.physical;
 
 import ru.ifmo.se.pokemon.*;
 
-public class Crunch extends PhysicalMove{
+public final class Crunch extends PhysicalMove{
 	public Crunch() {
 		super(Type.GROUND, 80, 100);
 	}

@@ -6,7 +6,7 @@ import moves.special.FlashCannon;
 import moves.special.SludgeWave;
 import moves.status.ThunderWave;
 
-public class Thundurus extends Pokemon{
+public final class Thundurus extends Pokemon{
 	public Thundurus(String name, int level) {
 		super(name, level);
 		setType(Type.ELECTRIC, Type.FLYING);

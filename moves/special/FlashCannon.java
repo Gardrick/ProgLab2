@@ -2,7 +2,7 @@ package moves.special;
 
 import ru.ifmo.se.pokemon.*;
 
-public class FlashCannon extends SpecialMove{
+public final class FlashCannon extends SpecialMove{
 	public FlashCannon() {
 		super(Type.STEEL, 80, 100);
 	}

@@ -2,7 +2,7 @@ package moves.status;
 
 import ru.ifmo.se.pokemon.*;
 
-public class WorkUp extends StatusMove{
+public final class WorkUp extends StatusMove{
 	public WorkUp() {
 		super(Type.NORMAL, 0, 0);
 	}
